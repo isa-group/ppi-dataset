@@ -1,0 +1,58 @@
+Process;Measured data;KPI identifier;KPI name;Calculation of the indicator;Interested rol
+P-RFC;Quality of the record;1;Requests for change cancelled due to record error;Percentage of requests for change cancelled due to record error from the total requests for change registered;GCAMB 
+P-RFC;Committee diligence;2;Delays caused by committees;(Average time of Elevated waiting for committee  + Average time of Elevated waiting for committee Ext) / 2;DIRECTION
+P-RFC;Quality of applications;3;Volume of requested corrective changes;Percentage of corrective requests for change over total approved requests for change;DIRECTION
+P-RFC;Customer service;4;Proactivity with the client;Percentage of perfective and adaptive requests for change over total approved requests for change;DIRECTION
+P-RFC;Diligence of the person responsible for planning and changes;5;Average time to analyze a request;Average time of requests for change in analysis;GCAMB
+P-RFC;Workload of the person responsible for planning and changes;6;Volume of requests in analysis;Number of requests for change in Analysis;GCAMB
+P-RFC;Distribution of requests for change by typification of the year change;7;Volume of requests for change  by typification of the change;Number of requests for change by typification of the change;GCAMB
+P-RFC;Distribution of the workload received by project;8;Volume of requests for change per project;Number of requests for change per project;GCAMB, DIRECTION
+P-RFC;Distribution of received workload by application;9;Volume of requests for change per application;Number of requests for change  per application;GCAMB, DIRECTION
+P-RFC;Supplier workload;10;Volume of requests for change per successful bidder per project;Number of requests for change per successful bidder per project;DIRECTION
+P-RFC;Supplier workload;11;Volume of requests for change per successful bidder per application;Number of requests for change per successful bidder per application;DIRECTION
+P-RFC;Information Processing Center ;12;Average life time by supplier (Historical);Evolution of average lifetimes of requests for change by supplier. Average of the union of two sets (open requests for change and closed requests for change);GCAMB
+P-RFC;Information Processing Center ;13;Average life time by supplier (Bars);Average times seen by supplier (bar chart) (open requests for change and closed requests for change);GCAMB
+P-RFC;Information Processing Center ;14;Total average life time;Total indicator of the average life time of all suppliers (open requests for change and closed requests for change);GCAMB
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
