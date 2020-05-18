@@ -1,0 +1,103 @@
+Process;PPI identifier;PPI name;Calculation of the indicator;PPI Type
+P-RFR;RFR-1;Frequency of reinstalled requests for release;Percentage of requests for release reinstalled in some environment, with or without Backward, over the total number of requests for release installed on the system.;Percentage
+P-RFR;RFR-2;Average executions per release request;Percentage of executions over the total number of requests for release planned for that period.;Percentage
+P-RFR;RFR-3;Frequency of executions versus records;Percentage of executions in a period over the total number of requests for release registered in that period.;Percentage
+P-RFR;RFR-4;Average life span of a release request ;Average time for all requests for release from registration in that period until successful or unsuccessful closure in that same period. ;Time
+P-RFR;RFR-5;Release request canceled by default in the documentation.;Percentage of requests for release cancelled by default in the documentation in that period of the total of the same requests for release registered in that period.;Percentage
+P-RFR;RFR-6;Requests for release per successful bidder per project;Number of requests for release per successful bidder per project;Number of requests
+P-RFR;RFR-7;Requests for release per successful bidder per application;Number of requests for release per successful bidder per application;Number of requests
+P-RFR;RFR-8;Mean offset between planned and actual activity;Average number of days between planned and actual start date/time;Time
+P-RFR;RFR-9;Information Processing Center workload;Number of requests for release registered, pending impact analysis or planned;Number of requests
+P-RFR;RFR-10;Distribution of the workload received by project;Number of requests for release registered, pending impact analysis or planned per project;Number of requests
+P-RFR;RFR-11;Distribution of received workload by application;Number of requests for release registered, pending impact analysis or planned per application;Number of requests
+P-RFR;RFR-12;Volume of installations in validation;Number of installations in validation;Number of installations
+P-RFR;RFR-13;Volume of installations in pre-production;Number of installations in pre-production;Number of installations
+P-RFR;RFR-14;Volume of installations in production;Number of installations in production;Number of installations
+P-RFR;RFR-15;Volume of installations in formation;Number of installations in formation;Number of installations
+P-RFR;RFR-16;Volume of reinstallations in validation;Number of reinstallations in validation;Number of reinstallations
+P-RFR;RFR-17;Volume of reinstallations in pre-production;Number of reinstallations in pre-production;Number of reinstallations
+P-RFR;RFR-18;Volume of reinstallations in production;Number of reinstallations in production;Number of reinstallations
+P-RFR;RFR-19;Volume of reinstallations in formation;Number of reinstallations in formation;Number of reinstallations
+P-RFR;RFR-20;Volume of uninstallations  in validation;Number of uninstallations in validation;Number of uninstallations
+P-RFR;RFR-21;Volume of uninstallations in pre-production;Number of uninstallations in pre-production;Number of uninstallations
+P-RFR;RFR-22;Volume of uninstallations in production;Number of uninstallations in production;Number of uninstallations
+P-RFR;RFR-23;Volume of uninstallations in formation;Number of uninstallations in formation;Number of uninstallations
+P-RFR;RFR-24;Volume of executions in validation;Number of executions in validation;Number of executions
+P-RFR;RFR-25;Volume of executions in pre-production;Number of executions in pre-production;Number of executions
+P-RFR;RFR-26;Volume of executions in production;Number of executions in production;Number of executions
+P-RFR;RFR-27;Volume of executions in formation;Number of executions in formation;Number of executions
+P-RFR;RFR-28;Average duration of the study of the documentation provided by the petitioner;Average time of the release request in the state Pending study of documentation;Time
+P-RFR;RFR-29;Average duration of release request impact analysis;Average time of the release request in the state Pending impact analysis;Time
+P-RFR;RFR-30;Volume of total executions per technician;Total number of executions for each technician;Number of executions
+P-RFR;RFR-31;Volume of executions in Wintel per technician;Total number of executions for each technician;Number of executions
+P-RFR;RFR-32;Volume of executions in DBA per technician;Total number of executions for each technician;Number of executions
+P-RFR;RFR-33;Volume of executions in other technologies per technician;Total number of executions for each technician;Number of executions
+P-RFR;RFR-34;Average duration of a release request execution ;Average execution time of a release request;Time
+P-RFR;RFR-35;Average duration of a release request execution per technician;Average execution time of a release request per technician;Time
+P-RFR;RFR-36;Delays caused by the petitioner;Sum of: average time of Installed pending analysis + average time of Uninstalled pending analysis + average time of Defective installation + average time Justifying the cancellation by default of software;Time
+P-RFR;RFR-37;Planned requests for release returned or retrieved;Percentage of non-executed releaseed requests over total planned releaseed requests;Percentage
+P-RFR;RFR-38;Average duration of preplanning tasks ;Sum of: average time of plannable + average time of to be planned + average time of list to plan;Time
+P-RFR;RFR-39;Installation frequency in validation;Percentage of requests for release installed at validation over total installed requests for release;Percentage
+P-RFR;RFR-40;Installation frequency in pre-production;Percentage of requests for release installed at pre-production over total installed requests for release;Percentage
+P-RFR;RFR-41;Installation frequency in production;Percentage of requests for release installed at production over total installed requests for release;Percentage
+P-RFR;RFR-42;Installation frequency in formation;Percentage of requests for release installed at formation over total installed requests for release;Percentage
+P-RFR;RFR-43;Average installation time in validation;Sum of (Actual end date/time of installation in validation - Actual start date/time of installation in validation) over total installed validation environments;Time
+P-RFR;RFR-44;Average installation time in pre-production;Sum of (Actual end date/time of installation in pre-production - Actual start date/time of installation in pre-production) over total installed pre-production environments;Time
+P-RFR;RFR-45;Average installation time in production;Sum of (Actual end date/time of installation in production - Actual start date/time of installation in production) over total installed production environments;Time
+P-RFR;RFR-46;Average installation time in formation;Sum of (Actual end date/time of installation in formation - Actual start date/time of installation in formation) over total installed formation environments;Time
+P-RFR;RFR-47;Average uninstallation time at validation;Sum of (Actual end date/time of uninstallation in validation - Actual start date/time of uninstallation in validation) over total uninstalled validation environments;Time
+P-RFR;RFR-48;Average uninstallation time at pre-production;Sum of (Actual end date/time of uninstallation in pre-production - Actual start date/time of uninstallation in pre-production) over total uninstalled pre-production environments;Time
+P-RFR;RFR-49;Average uninstallation time at production;Sum of (Actual end date/time of uninstallation in production - Actual start date/time of uninstallation in production) over total uninstalled production environments;Time
+P-RFR;RFR-50;Average uninstallation time at formation;Sum of (Actual end date/time of uninstallation in formation - Actual start date/time of uninstallation in formation) over total uninstalled formation environments;Time
+P-RFR;RFR-51;Volume of requests for release by status;Number of requests for release by status;Time
+P-RFR;RFR-52;Average duration of a release request in state i;Average lifetime of a release request by state;Time
+P-RFR;RFR-53;Frequency of services with stop;Percentage of requests for release with service interruption over total requests for release registered in the month;Percentage
+P-RFR;RFR-54;Total time of services stopped;Sum of interruption time of all stopped services in the month;Time
+P-RFR;RFR-55;Average duration of a service interruption;Average cut-off time of all stopped services in the month;Time
+P-RFR;RFR-56;Requests for release by project;Number of requests for release registered in the indicated period per project per month;Number of requests
+P-RFR;RFR-57;Requests for release with service cut-off;Number of requests for release with cut-off service per month;Number of requests
+P-RFC;RFC-1;Requests for change cancelled due to record error;Percentage of requests for change cancelled due to record error from the total requests for change registered;Percentage
+P-RFC;RFC-2;Delays caused by committees;(Average time of Elevated waiting for committee  + Average time of Elevated waiting for committee Ext) / 2;Time
+P-RFC;RFC-3;Volume of requested corrective changes;Percentage of corrective requests for change over total approved requests for change;Percentage
+P-RFC;RFC-4;Proactivity with the client;Percentage of perfective and adaptive requests for change over total approved requests for change;Percentage
+P-RFC;RFC-5;Average time to analyze a request;Average time of requests for change in analysis;Time
+P-RFC;RFC-6;Volume of requests in analysis;Number of requests for change in Analysis;Number of requests
+P-RFC;RFC-7;Volume of requests for change  by typification of the change;Number of requests for change by typification of the change;Number of requests
+P-RFC;RFC-8;Volume of requests for change per project;Number of requests for change per project;Number of requests
+P-RFC;RFC-9;Volume of requests for change per application;Number of requests for change  per application;Number of requests
+P-RFC;RFC-10;Volume of requests for change per successful bidder per project;Number of requests for change per successful bidder per project;Number of requests
+P-RFC;RFC-11;Volume of requests for change per successful bidder per application;Number of requests for change per successful bidder per application;Number of requests
+P-RFC;RFC-12;Average life time by supplier (Historical);Evolution of average lifetimes of requests for change by supplier. Average of the union of two sets (open requests for change and closed requests for change);Time
+P-RFC;RFC-13;Average life time by supplier (Bars);Average times seen by supplier (bar chart) (open requests for change and closed requests for change);Time
+P-RFC;RFC-14;Total average life time;Total indicator of the average life time of all suppliers (open requests for change and closed requests for change);Time
+P-IM;IM-1;Percentage of incidents resolved in time;Percentage of communicated incidents that are solved in time;Percentage
+P-IM;IM-2;Percentage of incidents without categorizing the reason for closure;Percentage of incidents that have been closed without indicating a specific and categorized reason that shows the solution applied to solve the incidence;Percentage
+P-IM;IM-3;Percentage of incidents reopened;Percentage of incidents that are reopened because they were not correctly solved;Percentage
+P-IM;IM-4;Percentage of incidents claimed with the SLA fulfilled;Percentage of incidents that are claimed to the organization after the resolution time of the SLA has been exceeded;Percentage
+P-IM;IM-5;Percentage of incidents pending resolution for more than one week;Percentage of incidents that are not solved one week after they were registered;Percentage
+P-IM;IM-6;Percentage of downtime with respect to total SLA;Percentage of time that the incidents are paused with respect to the total time available to the provider;Percentage
+P-IM;IM-7;Demanda nueva solicitada de incidencias;Number of new incidents opened in a period of time;Number of incidents
+P-IM;IM-8;Demand resolved incidents;Number of incidents solved in a period of time;Number of incidents
+P-IM;IM-9;Average incident resolution time;Average resolution time measured in working hours;Time
+P-IM;IM-10;Percentage of incidents assigned to the successful bidder with non-compliance within the resolution period that are claimed;Percentage of incidents assigned to the provider that have unfulfilled their resolution time and are claimed with respect to the total of incidents;Percentage
+P-IM;IM-11;Percentage of incidents resolved by the successful bidder that are reopened;Percentage of incidents solved by the provider that are reopened with respect to the total number of incidents solved by the provider. An incidence is solved by the provider if the proposal to close the incidence is made by the provider;Percentage
+P-IM;IM-12;Decrease in the number of incidents assigned to the successful bidder;Percentage on the deviation of number of incidents assigned to the provider in a period with respect to the number of incidents assigned to the provider in the same period of the previous year;Percentage
+P-IM;IM-13;Level of user satisfaction;Sum of all survey results - one for each contact - weighted over the total number of surveys, will be the score achieved in each measurement period for this indicator. In this way, 100% satisfaction would correspond to a maximum of 200 points, and 0% satisfaction would correspond to -50 points;Percentage
+P-IM;IM-14;Improved User Service Center maintained ;Maintained improvement of the User Service Centre to the average increase of the IO_10 and IO_11 indicators, comparing them with the results of the same month of the previous year.;Percentage
+P-IM;IM-15;Extreme priority incidents with non-conformity in forensic analysis;Every time an issue with extreme priority is closed, the IT organization performs a full forensic analysis. If any of the following circumstances appear in the trial, the penalty provided for in the specific administrative specifications will be applied.;Percentage
+P-IM;IM-16;Phone Support Functional Support;Percentage of contacts of the functional support telephone channel attended to within 30 seconds, in relation to the total number of contacts of that channel;Percentage
+P-IM;IM-17;Telephone attention Specialized Technical Support;Percentage of specialised technical support telephone channel contacts attended to within 30 seconds, compared to the total number of contacts on that channel;Percentage
+P-IM;IM-18;Telephone assistance Supervision;Percentage of contacts on the Supervision telephone channel attended to within 30 seconds, compared to the total number of contacts on that channel;Percentage
+P-IM;IM-19;Telephone Assistance User Service Center 20 seconds;Percentage of contacts on the telephone channel attended to within 20 seconds, in relation to the total number of contacts on that channel;Percentage
+P-IM;IM-20;Attention self-service channel 2 minutes;Percentage of contacts of the self-service channel attended to within 2 minutes, with respect to the total number of contacts of that channel. Excluding those contacts that are handled through the automatic flows;Percentage
+P-IM;IM-21;Telephone Assistance User Service Center 30 seconds;Percentage of contacts on the telephone channel attended to within 30 seconds, in relation to the total number of contacts on that channel;Percentage
+P-IM;IM-22;Attention self-service channel 3 minutes;Percentage of contacts of the self-service channel attended to within 3 minutes, with respect to the total number of contacts of that channel. Excluding those contacts that are handled through the automatic flows;Percentage
+P-IM;IM-23;User Service Center 20 seconds weekend call;Percentage of contacts of the telephone channel attended to within 20 seconds of the total number of contacts attended to by that channel, on a non-working day or between 8 p.m. and 8 a.m. on a working day. Considerations: Public holidays are considered to be those at a regional or national level;Percentage
+P-IM;IM-24;Attention self-service channel 2 minutes on weekends;Percentage of contacts from the self-service channel attended to within 2 minutes, in relation to the total number of contacts attended to by that channel, on a non-working day or between 8 p.m. and 8 a.m. on a working day;Percentage
+P-IM;IM-25;Telephony fee;Percentage of contacts with respect to the total number of contacts served by the telephone channel in the period;Percentage
+P-IM;IM-26;Self-service fee;Percentage of contacts with respect to the total number of contacts served by the self-service channel in the period. Contacts handled through automatic flows are excluded;Percentage
+P-IM;IM-27;Self-service fee with flow;Percentage of contacts recorded by the self-service channel through automatic flows in relation to the total number of contacts attended to in the period;Percentage
+P-IM;IM-28;Web technical fee;Percentage of contacts recorded by the technical channel of the total number of contacts handled in the period;Percentage
+P-IM;IM-29;Percentage of resolved requests reopened;Percentage of requests resolved by the User Service Center that are reopened by the user, in relation to the total number of requests closed by the User Service Center ;Percentage
+P-IM;IM-30;Percentage of assigned requests claimed by user;Percentage of requests assigned to the User Service Center that are claimed by the user, in relation to the total of open requests;Percentage
+P-IM;IM-31;Percentage of resolutions at first contact;Percentage of contacts whose request has been resolved in the first contact, with respect to the total number of resolved requests;Percentage

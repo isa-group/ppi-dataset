@@ -1,0 +1,103 @@
+Process/Proceso;PPI identifier / PPI identificador;KPI name / KPI nombre;Calculation of the indicator / Cálculo del indicador;PPI Type / Tipo de PPI
+P-PL;PL-1;Frecuencia de peticiones de lanzamiento reinstaladas;Porcentaje de solicitudes de lanzamiento reinstaladas en algún entorno, con o sin marcha atrás, sobre el número total de solicitudes de lanzamiento instaladas en el sistema.;Porcentaje
+P-PL;PL-2;Media de ejecuciones por petición de lanzamiento;Porcentaje de ejecuciones sobre el total de peticiones de lanzamiento planificadas para ese periodo;Porcentaje
+P-PL;PL-3;Frecuencia de ejecuciones frente a registros;Porcentaje de ejecuciones de ese periodo sobre el total de peticiones de lanzamiento registradas en ese periodo;Porcentaje
+P-PL;PL-4;Tiempo medio de viida de una petición de lanzamiento;Media de tiempo transcurrido para todas las peticiones de lanzamiento desde su registro en ese periodo hasta que se cierra existosamente en ese mismo periodo.;Tiempo
+P-PL;PL-5;Peticiones de lanzamiento anuladas por defecto de documentación;Porcentaje de peticiones de lanzamiento anuladas por defecto en la documentación en ese periodo del total de las mismas peticiones de lanzamiento registradas en ese periodo. ;Porcentaje
+P-PL;PL-6;Peticiones de lanzamiento por adjudicatario por proyecto;Número de peticiones de lanzamiento por adjudicatario por proyecto;Número de peticiones
+P-PL;PL-7;Peticiones de lanzamiento por adjudicatario por aplicación;Número de peticiones de lanzamiento por adjudicatario por aplicación.;Número de peticiones
+P-PL;PL-8;Desfase medio entre la actividad planificada y la real;Número medio de días existentes entre Fecha/hora planificada y real de inicio.;Tiempo
+P-PL;PL-9;Carga de trabajo del  Centro de tratamiento de la información;Número de peticiones de lanzamiento registradas, pendientes de análisis de impacto o planificadas;Número de peticiones
+P-PL;PL-10;Distribución de la carga de trabajo recibida por proyecto;Número de peticiones de lanzamiento registradas, pendientes de análisis de impacto o planificadas por proyecto;Número de peticiones
+P-PL;PL-11;Distribución de la carga de trabajo recibida por aplicación;Número de peticiones de lanzamiento registradas, pendientes de análisis de impacto o planificadas por aplicación;Número de peticiones
+P-PL;PL-12;Volumen de instalaciones en validación;Número de instalaciones en validación;Número de instalaciones
+P-PL;PL-13;Volumen de instalaciones en preproducción;Número de instalaciones en preproducción;Número de instalaciones
+P-PL;PL-14;Volumen de instalaciones en producción;Número de instalaciones en producción;Número de instalaciones
+P-PL;PL-15;Volumen de instalaciones en formación;Número de instalaciones en formación;Número de instalaciones
+P-PL;PL-16;Volumen de reinstalaciones en validación;Número de reinstalaciones en validación;Número de reinstalaciones
+P-PL;PL-17;Volumen de reinstalaciones en preproducción;Número de reinstalaciones en preproducción;Número de reinstalaciones
+P-PL;PL-18;Volumen de reinstalaciones en producción;Número de reinstalaciones en producción;Número de reinstalaciones
+P-PL;PL-19;Volumen de reinstalaciones en formación;Número de reinstalaciones en formación;Número de reinstalaciones
+P-PL;PL-20;Volumen de desinstalaciones en validación;Número de desinstalaciones en validación;Número de desinstalaciones
+P-PL;PL-21;Volumen de desinstalaciones en preproducción;Número de desinstalaciones en preproducción;Número de desinstalaciones
+P-PL;PL-22;Volumen de desinstalaciones en producción;Número de desinstalaciones en producción;Número de desinstalaciones
+P-PL;PL-23;Volumen de desinstalaciones en formación;Número de desinstalaciones en formación;Número de desinstalaciones
+P-PL;PL-24;Volumen de ejecuciones en validación;Número de ejecuciones en validación;Número de ejecuciones
+P-PL;PL-25;Volumen de ejecuciones en preproducción;Número de ejecuciones en preproducción;Número de ejecuciones
+P-PL;PL-26;Volumen de ejecuciones en producción;Número de ejecuciones en producción;Número de ejecuciones
+P-PL;PL-27;Volumen de ejecuciones en formación;Número de ejecuciones en formación;Número de ejecuciones
+P-PL;PL-28;Duración media del estudio de la documentación aportada por el peticionario;Tiempo medio de la petición de lanzamiento en el estado Pendiente de estudio de documentación;Tiempo
+P-PL;PL-29;Duración media del análisis de impacto de la petición de lanzamiento;Tiempo medio de la petición de lanzamiento en el estado Pendiente de análisis de impacto;Tiempo
+P-PL;PL-30;Volumen de ejecuciones totales por técnico;Número de ejecuciones totales de cada técnico;Número de ejecuciones
+P-PL;PL-31;Volumen de ejecuciones en Wintel por técnico;Número de ejecuciones totales de cada técnico;Número de ejecuciones
+P-PL;PL-32;Volumen de ejecuciones en DBA por técnico;Número de ejecuciones totales de cada técnico;Número de ejecuciones
+P-PL;PL-33;Volumen de ejecuciones en otras tecnologías por técnico;Número de ejecuciones totales de cada técnico;Número de ejecuciones
+P-PL;PL-34;Duración media de la ejecución de una petición de lanzamiento;Tiempo medio de ejecución de una petición de lanzamiento;Tiempo
+P-PL;PL-35;Duración  media de la ejecución de una petición de lanzamiento por técnico;Tiempo medio de ejecución de una petición de lanzamiento por técnico;Tiempo
+P-PL;PL-36;Retrasos provocados por el peticionario;Suma de: tiempo medio de Instalada pendiente de análisis + tiempo medio de Desinstalada pendiente de análisis + tiempo medio de Instalación defectuosa + tiempo medio Justificando la anulación por defecto de software;Tiempo
+P-PL;PL-37;Peticiones de lanzamiento planificadas devueltas o recuperadas;Porcentaje de peticiones lanzadas no ejecutadas sobre el total de peticiones lanzadas planificadas;Porcentaje
+P-PL;PL-38;Duración media de las tareas previas a la planificación ;Suma de: tiempo medio de planificable + tiempo medio de pendiente de planificar + tiempo medio de lista para planificar;Tiempo
+P-PL;PL-39;Frecuencia de instalación en validación;Porcentaje de peticiones de lanzamiento instaladas en validación sobre el total de peticiones de lanzamiento instaladas;Porcentaje
+P-PL;PL-40;Frecuencia de instalación en preproducción;Porcentaje de peticiones de lanzamiento instaladas en preproducción sobre el total de peticiones de lanzamiento instaladas;Porcentaje
+P-PL;PL-41;Frecuencia de instalación en producción;Porcentaje de peticiones de lanzamiento instaladas en producción sobre el total de peticiones de lanzamiento instaladas;Porcentaje
+P-PL;PL-42;Frecuencia de instalación en formación;Porcentaje de peticiones de lanzamiento instaladas en formación sobre el total de peticiones de lanzamiento instaladas;Porcentaje
+P-PL;PL-43;Duración media de instalación en validación;Suma de (Fecha/Hora fin real de instalación en validación - Fecha/Hora inicio real de instalación en validación) sobre el total de entornos de validación instalados;Tiempo
+P-PL;PL-44;Duración media de instalación en preproducción;Suma de (Fecha/Hora fin real de instalación en preproducción - Fecha/Hora inicio real de instalación en preproducción) sobre el total de entornos en preproducción instalados;Tiempo
+P-PL;PL-45;Duración media de instalación en producción;Suma de (Fecha/Hora fin real de instalación en producción - Fecha/Hora inicio real de instalación en producción) sobre el total de entornos en producción instalados;Tiempo
+P-PL;PL-46;Duración media de instalación en formación;Suma de (Fecha/Hora fin real de instalación en formación - Fecha/Hora inicio real de instalación en formación) sobre el total de entornos de formación instalados;Tiempo
+P-PL;PL-47;Duración media de desinstalación en validación;Suma de (Fecha/Hora fin real de desinstalación en validación - Fecha/Hora inicio real de desinstalación en validación) sobre el total de entornos de validación desinstalados;Tiempo
+P-PL;PL-48;Duración media de desinstalación en preproducción;Suma de (Fecha/Hora fin real de desinstalación en preproducción - Fecha/Hora inicio real de desinstalación en preproducción) sobre el total de entornos en preproducción desinstalados;Tiempo
+P-PL;PL-49;Duración media de desinstalación en producción;Suma de (Fecha/Hora fin real de desinstalación en producción - Fecha/Hora inicio real de desinstalación en producción) sobre el total de entornos en producción desinstalados;Tiempo
+P-PL;PL-50;Duración media de desinstalación en formación;Suma de (Fecha/Hora fin real de desinstalación en formación - Fecha/Hora inicio real de desinstalación en formación) sobre el total de entornos de formación desinstalados;Tiempo
+P-PL;PL-51;Volumen de peticiones de lanzamiento por estado;Número de peticiones de lanzamiento por estado;Tiempo
+P-PL;PL-52;Duración media de una petición de lanzamiento en el estado i;Tiempo medio de vida de una petición de lanzamiento por estado;Tiempo
+P-PL;PL-53;Frecuencia de servicios con parada;Porcentaje de peticiones de lanzamientos con corte de servicio sobre el total de peticiones de lanzamiento registradas en el mes;Porcentaje
+P-PL;PL-54;Tiempo total de servicios parados;Suma de tiempo de corte de todos los servicios parados en el mes;Tiempo
+P-PL;PL-55;Duración media del corte de un servicio;Tiempo medio de corte de todos los servicios parados en el mes;Tiempo
+P-PL;PL-56;Peticiones de lanzamiento por proyecto;Número de peticiones de lanzamiento registrados en el periodo indicado por proyecto por mes;Número de peticiones
+P-PL;PL-57;Peticiones de lanzamiento con corte de servicio;Número de peticiones de lanzamiento con corte de servicio por mes;Número de peticiones
+P-PC;PC-1;Peticiones de cambio anuladas por Error de registro.;Porcentaje de peticiones de cambio anuladas por error de registro del total de peticiones de cambio registradas;Porcentaje
+P-PC;PC-2;Retrasos provocados por los comités;(Tiempo medio de Elevada pendiente comité + Tiempo medio Elevada pendiente comité ext) / 2;Tiempo
+P-PC;PC-3;Volumen de cambios correctivos solicitados;Porcentaje de peticiones de cambio correctivos sobre el total de peticiones de cambio aprobadas;Porcentaje
+P-PC;PC-4;Proactividad con el cliente;Porcentaje de peticiones de cambio perfectivos y adaptativos sobre el total de peticiones de cambio aprobadas;Porcentaje
+P-PC;PC-5;Tiempo medio en analizar una petición;Tiempo medio de las peticiones de cambio en análisis.;Tiempo
+P-PC;PC-6;Volumen de peticiones en análisis;Número de peticiones de cambio en Análisis;Número de peticiones
+P-PC;PC-7;Volumen de peticiones de cambio por tipificación del cambio;Número de peticiones de cambio por tipificación del cambio;Número de peticiones
+P-PC;PC-8;Volumen de peticiones de cambio por proyecto;Número de peticiones de cambio por proyecto;Número de peticiones
+P-PC;PC-9;Volumen de peticiones de cambio por aplicación;Número de peticiones de cambio por aplicación;Número de peticiones
+P-PC;PC-10;Volumen de peticiones de cambio por adjudicatario por proyecto;Número de peticiones de cambio por adjudicatario por proyecto;Número de peticiones
+P-PC;PC-11;Volumen de peticiones de cambio por adjudicatario por aplicación;Número de peticiones de cambio por adjudicatario por aplicación;Número de peticiones
+P-PC;PC-12;Tiempo medio de vida por proveedores (Histórico);Evolución de los tiempos medios de vida de las peticiones de cambio por proveedor. Media de la unión de dos conjuntos (peticiones de cambio abiertas y peticiones de cambio cerradas);Tiempo
+P-PC;PC-13;Tiempo medio de vida por proveedores (Barras);Tiempos medios visto por proveedor (Gráfico de Barras) (Peticiones de cambio abiertas y peticiones de cambio cerradas);Tiempo
+P-PC;PC-14;Tiempo medio de vida total;Indicador total del tiempo medio de vida de todos los proveedores (Peticiones de cambio abiertas y peticiones de cambio cerradas);Tiempo
+P-GI;GI-1;Porcentaje incidencias resueltas en plazo;Porcentaje de incidencias comunicadas que se resuelven a tiempo;Porcentaje
+P-GI;GI-2;Porcentaje incidencias sin categorizar el motivo de cierre;Porcentaje de incidencias cerradas sin indicar un motivo de cierre concreto y categorizado que muestre la solución aplicada para la incidencia;Porcentaje
+P-GI;GI-3;Porcentaje incidencias reabiertas;Porcentaje de incidencias que se deben reabrir debido a que en su momento no fueron correctamente solucionadas, es decir, mal cerradas;Porcentaje
+P-GI;GI-4;Porcentaje incidencias reclamadas con el ANS cumplido;Porcentaje de incidencias que son reclamadas por la organización donde se han superado los tiempos objetivos de resolución de los ANS;Porcentaje
+P-GI;GI-5;Porcentaje incidencias pendientes de resolver más de una semana;Porcentaje de incidencias pendientes de resolver con más de una semana desde que fueron registradas.;Porcentaje
+P-GI;GI-6;Porcentaje tiempo de parada respecto del total SLA;Tiempo que están las incidencias paradas respecto al tiempo total disponible por el proveedor;Porcentaje
+P-GI;GI-7;Demanda nueva solicitada de incidencias;Numero de incidencias nuevas dadas de alta;Número de incidencias
+P-GI;GI-8;Demanda resuelta incidencias;Numero de incidencias resueltas en el periodo;Número de incidencias
+P-GI;GI-9;Tiempo medio de resolución de incidencias;Tiempo medio de resolución de incidencias medido en horas hábiles;Tiempo
+P-GI;GI-10;Porcentaje de incidencias asignadas al adjudicatario con incumplimiento en el plazo de resolución que son reclamadas;Porcentaje de incidencias asignadas al adjudicatario que, con incumplimiento en el plazo de resolución según su prioridad, son reclamadas respecto del total de incidencias asignadas al adjudicatario.;Porcentaje
+P-GI;GI-11;Porcentaje de incidencias resueltas por el adjudicatario que son reabiertas;Porcentaje de incidencias resueltas por el adjudicatario que son reabiertas respecto del total de incidencias resueltas por el adjudicatario. Se entiende resuelta por el adjudicatario aquella incidencia en la que es el propio adjudicatario el que hace la propuesta de cierre de la incidencia;Porcentaje
+P-GI;GI-12;Decremento del número de incidencias asignadas al adjudicatario;Porcentaje de desviación en el número de incidencias asignadas al adjudicatario en el periodo con respecto al número de incidencias asignadas al adjudicatario en el mismo período del año anterior;Porcentaje
+P-GI;GI-13;Nivel de satisfacción de los usuarios;La suma de todos los resultados de las encuestas –se realiza una por cada contacto–, ponderados sobre el total de encuestas, será la puntuación conseguida en cada periodo de medición para este indicador. De esta forma, el 100% de satisfacción correspondería con un máximo de 200 puntos, y un 0% de satisfacción correspondería con -50 puntos.;Porcentaje
+P-GI;GI-14;Mejora mantenida del Centro de Servicio al Usuario ;Mejora mantenida del Centro de Servicio al Usuario a la media del incremento de los indicadores IO_10 e IO_11, comparándolos con los resultados de los mismos en el mismo mes del año anterior.;Porcentaje
+P-GI;GI-15;Incidencias con prioridad extrema con no conformidad en el análisis forense;Cada vez que se cierra una incidencia con prioridad extrema, la organización de TI realiza un análisis forense completo. Si en el juicio aparece cualquiera de las siguientes circunstancias, se aplicará la penalización dispuesta en el pliego de cláusulas administrativas particulares.;Porcentaje
+P-GI;GI-16;Atención telefónica Soporte Funcional;Porcentaje de contactos del canal telefónico de soporte funcional atendidos antes de 30 segundos, respecto del total de contactos de dicho canal;Porcentaje
+P-GI;GI-17;Atención telefónica Soporte Técnico Especializado;Porcentaje de contactos canal telefónico de soporte técnico especializado atendidos antes de 30 segundos, respecto del total de contactos de dicho canal;Porcentaje
+P-GI;GI-18;Atención telefónica Supervisión;Porcentaje de contactos del canal telefónico de Supervisión atendidos antes de 30 segundos, respecto del total de contactos de dicho canal;Porcentaje
+P-GI;GI-19;Atención telefónica Centro de Servicio al Usuario 20 segundos;Porcentaje de contactos del canal telefónico atendidos antes de 20 segundos, respecto del total de contactos de dicho canal;Porcentaje
+P-GI;GI-20;Atención canal autoservicio 2 minutos;Porcentaje de contactos del canal autoservicio atendidos antes de 2 minutos, respecto del total de contactos de dicho canal. Se excluyen aquellos contactos que se traten a través de los flujos automáticos;Porcentaje
+P-GI;GI-21;Atención telefónica Centro de Servicio al Usuario 30 segundos;Porcentaje de contactos del canal telefónico atendidos antes de 30 segundos, respecto del total de contactos de dicho canal;Porcentaje
+P-GI;GI-22;Atención canal autoservicio 3 minutos;Porcentaje de contactos del canal autoservicio atendidos antes de 3 minutos, respecto del total de contactos de dicho canal. Se excluyen aquellos contactos que se traten a través de los flujos automáticos;Porcentaje
+P-GI;GI-23;Atención telefónica Centro de Servicio al Usuario 20 segundos fines de semana;Porcentaje de contactos del canal telefónico atendidos antes de 20 segundos respecto del total de contactos atendidos por dicho canal, en día no laborable o en horario de 20.00h a 8.00h de un día laborable. Consideraciones: Se consideran festivos aquellos que lo sean a nivel regional o nacional;Porcentaje
+P-GI;GI-24;Atención canal autoservicio 2 minutos fines de semana;Porcentaje de contactos del canal autoservicio atendidos antes de 2 minutos, respecto del total de contactos atendidos por dicho canal, en día no laborable o en horario de 20.00h a 8.00h de un día laborable;Porcentaje
+P-GI;GI-25;Cuota telefonía;Porcentaje de contactos respecto del total de contactos atendidos por el canal telefónico en el periodo;Porcentaje
+P-GI;GI-26;Cuota autoservicio;Porcentaje de contactos respecto del total atendidos por el canal autoservicio en el periodo. Se excluyen aquellos contactos que se traten a través de los flujos automáticos;Porcentaje
+P-GI;GI-27;Cuota autoservicio con flujo;Porcentaje de contactos registrados por el canal autoservicio mediante flujos automáticos respecto del total de contactos atendidos en el periodo;Porcentaje
+P-GI;GI-28;Cuota webtécnica;Porcentaje de contactos registrados por el canal técnico del total de contactos atendidos en el periodo;Porcentaje
+P-GI;GI-29;Porcentaje de solicitudes resueltas reabiertas;Porcentaje de solicitudes resueltas por el Centro de Servicio al Usuario que son reabiertas por el usuario, respecto del total de solicitudes cerradas por el Centro de Servicio al Usuario;Porcentaje
+P-GI;GI-30;Porcentaje de solicitudes asignadas reclamadas por usuario;Porcentaje de solicitudes asignadas al Centro de Servicio al Usuario que son reclamadas por el usuario, respecto del total de solicitudes abiertas.;Porcentaje
+P-GI;GI-31;Porcentaje de resoluciones en primer contacto;Porcentaje de contactos cuya solicitud ha sido resuelta en el primer contacto, respecto del total de solicitudes resolubles;Porcentaje
